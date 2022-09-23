@@ -19,11 +19,11 @@ namespace Web.Pages
 
         public IEnumerable<Ballot>? Ballots { get; private set; }
 
-        public async void OnGet()
+        public async Task OnGet()
         {
             string apiHost  = config["apiAddress"];
-            string url = $"{apiHost}/api/elections/cities";
-            Ballots = await http.GetFromJsonAsync<IEnumerable<Ballot>>("/api/elections/cities");
+            string url = $"{apiHost}/api/ballots";
+            Ballots = await http.GetFromJsonAsync<IEnumerable<Ballot>>(url);
         }
     }
 }
