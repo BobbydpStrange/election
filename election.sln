@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "election", "api\election.csproj", "{C3D37D72-2F32-4A68-A150-54A0006E0E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "web\Web\Web.csproj", "{3C222DB3-4152-4F80-9D71-316168E58238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "web\Web\Web.csproj", "{3C222DB3-4152-4F80-9D71-316168E58238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{C0BCA5ED-6D43-438C-BBCA-F56B909CA1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{C0BCA5ED-6D43-438C-BBCA-F56B909CA1DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
